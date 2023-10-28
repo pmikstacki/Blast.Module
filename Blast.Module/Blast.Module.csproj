@@ -14,7 +14,6 @@
     </ItemGroup>
     <PropertyGroup>
         <Title>Blast Module</Title>
-        <PackageIcon>SLICC_128.png</PackageIcon>
         <PackageLicenseExpression>MIT</PackageLicenseExpression>
         <PackageId>Blast.Module</PackageId>
         <Version>0.1.1</Version>
