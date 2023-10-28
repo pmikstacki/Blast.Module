@@ -30,7 +30,7 @@ jobs:
       uses: actions/upload-artifact@v3.1.2
       with:
        name: Latest
-       path: ~/work/Blast.Module/bin/Debug/Blast.Module.0.0.1.${{github.run_number}}.nupkg
+       path: ~/work/Blast.Module/Blast.Module/Blast.Module/bin/Debug/Blast.Module.0.0.1.${{github.run_number}}.nupkg
   
 
     
