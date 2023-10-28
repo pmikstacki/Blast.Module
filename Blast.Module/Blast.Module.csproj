@@ -1,0 +1,28 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>net7.0</TargetFramework>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <Nullable>enable</Nullable>
+        <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <PackageReference Include="Microsoft.AspNetCore.Http.Abstractions" Version="2.2.0" />
+      <PackageReference Include="Microsoft.Extensions.Configuration.Abstractions" Version="7.0.0" />
+      <PackageReference Include="Microsoft.Extensions.DependencyInjection.Abstractions" Version="7.0.0" />
+    </ItemGroup>
+    <PropertyGroup>
+        <Title>Blast Module</Title>
+        <PackageIcon>SLICC_128.png</PackageIcon>
+        <PackageLicenseExpression>MIT</PackageLicenseExpression>
+        <PackageId>Blast.Module</PackageId>
+        <Version>0.1.1</Version>
+        <Description>A module interface for Blast Backend</Description>
+        <Authors>Piotr Mikstacki</Authors>
+        <ProjectUrl>https://github.com/pmikstacki/Blast</ProjectUrl>
+        <PackageProjectUrl>https://github.com/pmikstacki/Blast</PackageProjectUrl>
+        <RepositoryUrl>https://github.com/pmikstacki/Blast</RepositoryUrl>
+        <PackageTags>Blast, Backend, Module</PackageTags>
+    </PropertyGroup>
+</Project>
